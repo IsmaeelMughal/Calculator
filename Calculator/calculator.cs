@@ -177,28 +177,28 @@ namespace Calculator
             enableButtons();
         }
 
-        private double performBasicOperation(double snum, double pnum, char op)
-        {
-            double res = 0;
-            switch (op)
-            {
-                case 'x':
-                    res = pnum * snum;
-                    break;
-                case '-':
-                    res =  pnum - snum;
-                    break;
-                case '+':
-                    res = pnum + snum;
-                    break;
-                case '/':
-                    res = pnum / snum;
-                    break;
-                default:
-                    break;
-            }
-            return res;
-        }
+        //private double performBasicOperation(double snum, double pnum, char op)
+        //{
+        //    double res = 0;
+        //    switch (op)
+        //    {
+        //        case 'x':
+        //            res = pnum * snum;
+        //            break;
+        //        case '-':
+        //            res =  pnum - snum;
+        //            break;
+        //        case '+':
+        //            res = pnum + snum;
+        //            break;
+        //        case '/':
+        //            res = pnum / snum;
+        //            break;
+        //        default:
+        //            break;
+        //    }
+        //    return res;
+        //}
 
         private void disableButtons()
         {
