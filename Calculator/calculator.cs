@@ -83,10 +83,10 @@ namespace Calculator
 
         private void signBtn_Click(object sender, EventArgs e)
         {
-            if(!primaryTextbox.Text.Equals(string.Empty))
-            { 
+            if (!primaryTextbox.Text.Equals(string.Empty))
+            {
                 primaryNumber = getPrimaryNumber();
-                if (primaryNumber!= 0)
+                if (primaryNumber != 0)
                 {
                     primaryNumber *= -1;
                     primaryTextbox.Text = Convert.ToString(primaryNumber);
