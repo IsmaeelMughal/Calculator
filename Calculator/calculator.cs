@@ -55,31 +55,31 @@ namespace Calculator
             return false;
         }
 
-        private void num_handler(object sender, EventArgs e)
-        {
-            if (isValidLength())
-            {
-                Button button = (Button)sender;
-                if (button.Text == "0")
-                {
-                    if (primaryTextbox.Text != "0")
-                    {
-                        primaryTextbox.Text += button.Text;
-                    }
-                }
-                else
-                {
-                    if (primaryTextbox.Text == "0")
-                    {
-                        primaryTextbox.Text = button.Text;
-                    }
-                    else
-                    {
-                        primaryTextbox.Text += button.Text;
-                    }
-                }
-            }
-        }
+        //private void num_handler(object sender, EventArgs e)
+        //{
+        //    if (isValidLength())
+        //    {
+        //        Button button = (Button)sender;
+        //        if (button.Text == "0")
+        //        {
+        //            if (primaryTextbox.Text != "0")
+        //            {
+        //                primaryTextbox.Text += button.Text;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            if (primaryTextbox.Text == "0")
+        //            {
+        //                primaryTextbox.Text = button.Text;
+        //            }
+        //            else
+        //            {
+        //                primaryTextbox.Text += button.Text;
+        //            }
+        //        }
+        //    }
+        //}
 
         private void signBtn_Click(object sender, EventArgs e)
         {
